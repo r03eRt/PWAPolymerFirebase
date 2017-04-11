@@ -1,0 +1,27 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] CLI Version:  3.6.0
+[debug] Platform:     darwin
+[debug] Node Version: v6.10.1
+[debug] Time:         Tue Apr 11 2017 13:00:43 GMT+0200 (CEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pwapolymerfirebase  
+ Tue Apr 11 2017 13:00:43 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pwapolymerfirebase/tokens  
+ Tue Apr 11 2017 13:00:44 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/rmorgado/proyectos/code/PWAPolymerFirebase
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pwapolymerfirebase  
+ Tue Apr 11 2017 13:00:45 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/760633843259/clients/_:getWebAppConfig  
+ Tue Apr 11 2017 13:00:46 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
